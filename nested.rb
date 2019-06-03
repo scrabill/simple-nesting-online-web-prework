@@ -66,8 +66,6 @@ def adding_matz
 #    :languages => ["LISP", "C"]
 # }
 
-programmer_hash[:yukihiro_matsumoto] = {}
-
 	programmer_hash =
  		{
         :grace_hopper => {
@@ -84,6 +82,7 @@ programmer_hash[:yukihiro_matsumoto] = {}
         }
      }
 
+  programmer_hash[:yukihiro_matsumoto] = {}
 
 end
 
